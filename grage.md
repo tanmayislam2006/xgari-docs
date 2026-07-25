@@ -48,7 +48,7 @@ This document outlines the essential frontend pages (UI routes) and their corres
 
 ---
 
-### Suggested Workflow Example (Showroom Flow)
+### Suggested Workflow Example
 1. Garage logs in, navigates to **`/garage/jobs`**, and sees a new `CHECKUP` job assigned by the Admin.
 2. They click on the car, opening **`/garage/jobs/:jobId`**.
 3. They click **"Start Job"** (This updates the DB and notifies the Admin that work has begun).
