@@ -48,10 +48,3 @@ This document outlines the essential frontend pages (UI routes) and their corres
 
 ---
 
-### Suggested Workflow Example
-1. Garage logs in, navigates to **`/garage/jobs`**, and sees a new `CHECKUP` job assigned by the Admin.
-2. They click on the car, opening **`/garage/jobs/:jobId`**.
-3. They click **"Start Job"** (This updates the DB and notifies the Admin that work has begun).
-4. They perform the physical inspection, fill out the form on the page, and hit **"Submit Inspection"**.
-5. They click **"Complete Job"**. 
-6. *(Automatic)* The system immediately triggers the XGari Expert to review the garage's findings.
